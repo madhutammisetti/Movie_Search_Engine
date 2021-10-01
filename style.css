@@ -1,0 +1,25 @@
+#searchContainer{
+    text-align: center;
+margin-top: 70px;
+}
+#movieWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.card{
+    width: calc(20% - 1%);
+    margin: 0% 0.5%;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.productimg{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.productDetails{
+    box-sizing: border-box;
+    padding: 16px;
+}
